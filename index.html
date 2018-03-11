@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://scdn3.thomascook.com/crop?imageUrl=http://magnolia.production.thomascook.io/wcms/dam/tcuk/holidays/bulgaria/Borovets/hero2.jpg&maxWidth=1200&maxHeight=0');
+      background-size: page;
+      color: #000066;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 10px;
+      margin: auto 0;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        display: block;
+        padding: 5px;
+      }
+    }
+    h3 {
+      font-size: 30px;
+      padding: 5px;
+      max-width: 500px;
+    }
+    iframe {
+      width: 1425px;
+    }
+    input {
+      border: 0;
+      border-color: black;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: red;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ethical Hackers</h1>
+    <ul>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Articles</a></li>
+      <li><a href="#">Events</a></li>
+      <li><a href="#">Sign Up</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </header>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d40242.146616293074!2d-1.4201084851318353!3d50.92123513823552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1520763560870" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <h3> What We Do:</h3>
+  <article>
+    <h2>Southampton</h2>
+    <p>Words</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Recycling</h2>
+    <p>Words</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Energy</h2>
+    <p>Words</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("You liked it!");
+    });
+  </script>
+  <div>
+  <h3> Join Us!</h3>
+  <input type="email" placeholder="Your Email">
+ <input type="submit">
+</body>
