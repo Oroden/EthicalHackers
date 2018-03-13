@@ -20,6 +20,9 @@ body {
     src: url("covesLight.otf");
 }
 
+
+/*Navbar code starts*/
+
 .fixedNavbar ul {
     background-color: #333;
     position: fixed;
@@ -53,14 +56,15 @@ body {
   font-size: 30px;
 }
 
-*/
+/*Navbar code ends*/
+
 
 .titleStyle {
   font-family: 'ailerons';
   font-size: 80px;
 }
 
-/*aboutUs div starts here*/
+/*aboutUs div*/
 .aboutUs {
   padding: 100px 50px 200px 50px;
   background: url("./ocean.jpg");
@@ -79,7 +83,7 @@ body {
   line-height: 60px;
 }
 
-/*whatWeDo div starts here*/
+/*whatWeDo div*/
 .whatWeDo {
   padding: 130px 150px 150px 150px;
   background: url("./Forest.jpg");
@@ -101,7 +105,7 @@ body {
   text-align: justify;
 }
 
-/*whoWe Are div starts here*/
+/*whoWeAre div*/
 .whoWeAre{
   padding: 100px 225px 100px 225px;
   background: url("./watercolour2.jpg");
@@ -128,9 +132,11 @@ p {
 
 .img-responsive {
   padding: 0px 20px 0px 20px;
+  min-width: 300px;
+  min-height: 300px;
 }
 
-/*Name classes must go before 'profilePicture' class to ensure 'background-size: cover' works
+/*Old code: controls image size and placement before Bootstrap was added
 .lucy {
   background: url("./Lucy.jpg");
 }
@@ -169,7 +175,7 @@ p {
   margin: 0;
 }
 
---------------------------------------------- */
+*/
 
 
 
