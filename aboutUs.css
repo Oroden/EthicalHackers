@@ -1,9 +1,3 @@
-body {
-    text-align: center;
-    font-family: 'covesBold';
-    color: white;
-    margin:  0 auto;
-}
 
 @font-face {
     font-family: "ailerons";
@@ -15,66 +9,65 @@ body {
     src: url("covesBold.otf");
 }
 
-@font-face {
-    font-family: "covesLight";
-    src: url("covesLight.otf");
+body {
+    text-align: center;
+    font-family: 'covesBold';
+    color: white;
+    margin:  0 auto;
 }
 
-
 /*Navbar code starts*/
-
 .fixedNavbar ul {
+    margin: 0;
     background-color: #333;
     position: fixed;
-    margin: 0;
     width: 100%;
     font-family: 'ailerons';
     text-align: center;
 }
 
 .fixedNavbar ul li {
+  margin-right: 40px;
   display: inline-block;
-  float: right;
-  margin-right: 50px;
+  float: inherit;
 }
 
 .fixedNavbar a {
-    font-size: 25px;
+    margin: 25px 90px 25px 0px;
     color: #f2f2f2;
+    font-size: 25px;
+    width: 50px;
     line-height: 15px;
     text-align: center;
     text-decoration: none;
-    width: 50px;
     display: block;
-    padding: 25px 90px 25px 0px;
     transition: font-size 0.5s;
     -webkit-transition: font-size 0.5s;
     -moz-transition: font-size 0.5s;
     }
 
 .fixedNavbar a:hover {
-  font-size: 30px;
+  font-size: 28px;
 }
-
 /*Navbar code ends*/
 
 
 .titleStyle {
   font-family: 'ailerons';
-  font-size: 80px;
+  font-size: 100px;
 }
 
 /*aboutUs div*/
 .aboutUs {
-  padding: 100px 50px 200px 50px;
+  padding: 200px 50px 200px 50px;
   background: url("./ocean.jpg");
   background-size: cover;
 }
 
 .titleAbout {
   font-family: 'ailerons';
-  font-size: 200px;
-  margin-bottom: 40px;
+  font-size: 150px;
+  margin-bottom: 60px;
 }
 
 .subtitleAbout {
@@ -85,7 +78,7 @@ body {
 
 /*whatWeDo div*/
 .whatWeDo {
-  padding: 130px 150px 150px 150px;
+  padding: 130px 250px 150px 250px;
   background: url("./Forest.jpg");
   background-size: cover;
 }
@@ -107,7 +100,7 @@ body {
 
 /*whoWeAre div*/
 .whoWeAre{
-  padding: 100px 225px 100px 225px;
+  padding: 100px 300px 100px 300px;
   background: url("./watercolour2.jpg");
   background-size: cover;
 }
@@ -122,19 +115,58 @@ body {
   padding-bottom: 20px;
 }
 
-p {
-  font-size: 25px;
-}
-
-.row {
-  text-align: center;
-}
-
 .img-responsive {
   padding: 0px 20px 0px 20px;
   min-width: 300px;
   min-height: 300px;
 }
+
+@media (min-width: 500px) {
+
+  .titleStyle {
+    font-size: 83px;
+  }
+
+  .aboutUs {
+    padding: 200px 0px 300px 0px;
+  }
+
+  .titleAbout {
+    font-size: 120px;
+    padding-bottom: 50px;
+  }
+
+/*
+  .whatWeDo {
+    padding: 130px;
+  }
+
+  .subtitleWhat {
+    font-size: 45px;
+  }
+
+  .paragraphWhat {
+    margin: 50px 50px 30px 50px;
+    font-size: 35px;
+  }
+  */
+
+  .whoWeAre {
+    padding: 100px 150px 100px 150px;
+  }
+
+  .subtitleWho {
+    margin: 0px 20px 50px 20px;
+    font-size: 35px;
+  }
+
+  .img-responsive {
+  max-width: 200px;
+  max-height: 200px;
+  }
+
+}
+
 
 /*Old code: controls image size and placement before Bootstrap was added
 .lucy {
@@ -176,33 +208,3 @@ p {
 }
 
 */
-
-
-
-@media (min-width: 500px) {
-
-  .titleStyle {
-    font-size: 120px;
-  }
-
-  .aboutUs {
-    padding: 200px 20px 300px 20px;
-  }
-
-  .titleAbout {
-    font-size: 120px;
-    padding-bottom: 50px;
-  }
-
-  .subtitleAbout {
-    margin: 0px 40px 0px 40px;
-  }
-
-  .paragraphWhat {
-    margin: 50px 50px 30px 50px;
-  }
-
-  .subtitleWho {
-    margin: 0px 80px 50px 80px;
-  }
-}

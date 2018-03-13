@@ -3,13 +3,235 @@
 
     <head>
         <title>About Us</title>
-        <link href="https://fonts.googleapis.com/css?family=Volkhov" rel="stylesheet">
-        <script src="/assets/jquery.js"></script>
         <link href="css/bootstrap.css" rel="stylesheet">
-        <meta name="viewpot" content="width=device-width,
-        initial-scale=1.0">
+        <meta name="viewpot" content="width=device-width, initial-scale=1.0">
         <link rel='stylesheet' type='text/css' href='aboutUs.css'>
     </head>
+
+<!--
+<style>
+
+@font-face {
+    font-family: "ailerons";
+    src: url("ailerons.otf");
+}
+
+@font-face {
+    font-family: "covesBold";
+    src: url("covesBold.otf");
+}
+
+body {
+    text-align: center;
+    font-family: 'covesBold';
+    color: white;
+    margin:  0 auto;
+}
+
+/*Navbar code starts*/
+
+.fixedNavbar ul {
+    margin: 0;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    font-family: 'ailerons';
+    text-align: center;
+}
+
+.fixedNavbar ul li {
+  margin-right: 40px;
+  display: inline-block;
+  float: inherit;
+}
+
+.fixedNavbar a {
+    margin: 25px 90px 25px 0px;
+    color: #f2f2f2;
+    font-size: 25px;
+    width: 50px;
+    line-height: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    transition: font-size 0.5s;
+    -webkit-transition: font-size 0.5s;
+    -moz-transition: font-size 0.5s;
+    }
+
+.fixedNavbar a:hover {
+  font-size: 28px;
+}
+
+/*Navbar code ends*/
+
+
+.titleStyle {
+  font-family: 'ailerons';
+  font-size: 100px;
+}
+
+/*aboutUs div*/
+.aboutUs {
+  padding: 200px 50px 200px 50px;
+  background: url("./ocean.jpg");
+  background-size: cover;
+}
+
+.titleAbout {
+  font-family: 'ailerons';
+  font-size: 150px;
+  margin-bottom: 60px;
+}
+
+.subtitleAbout {
+  font-size: 50px;
+  padding: 0px 250px 0px 250px;
+  line-height: 60px;
+}
+
+/*whatWeDo div*/
+.whatWeDo {
+  padding: 130px 250px 150px 250px;
+  background: url("./Forest.jpg");
+  background-size: cover;
+}
+
+.titleWhat {
+  font-family: 'ailerons';
+}
+
+.subtitleWhat {
+  font-size: 35px;
+  margin: 50px 150px 20px 150px;
+}
+
+.paragraphWhat {
+  font-size: 25px;
+  margin: 50px 0px 50px 0px;
+  text-align: justify;
+}
+
+/*whoWeAre div*/
+.whoWeAre{
+  padding: 100px 300px 100px 300px;
+  background: url("./watercolour2.jpg");
+  background-size: cover;
+}
+
+.titleWho {
+  font-family: 'ailerons';
+  margin-bottom: 50px;
+}
+
+.subtitleWho {
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+p {
+  font-size: 25px;
+}
+
+.img-responsive {
+  display: inline-block;
+  padding: 20px;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+
+@media (min-width: 500px) {
+
+  .titleStyle {
+    font-size: 83px;
+  }
+
+  .aboutUs {
+    padding: 200px 0px 300px 0px;
+  }
+
+  .titleAbout {
+    font-size: 120px;
+    padding-bottom: 50px;
+  }
+
+/*
+  .whatWeDo {
+    padding: 130px;
+  }
+
+  .subtitleWhat {
+    font-size: 45px;
+  }
+
+  .paragraphWhat {
+    margin: 50px 50px 30px 50px;
+    font-size: 35px;
+  }
+  */
+
+  .whoWeAre {
+    padding: 100px 150px 100px 150px;
+  }
+
+  .subtitleWho {
+    margin: 0px 20px 50px 20px;
+    font-size: 35px;
+  }
+
+  .img-responsive {
+  max-width: 200px;
+  max-height: 200px;
+  }
+
+}
+
+
+
+/*Old code: controls image size and placement before Bootstrap was added
+.lucy {
+  background: url("./Lucy.jpg");
+}
+
+.gemma {
+  background: url("./Gemma.jpg");
+}
+
+.phoebe {
+  background: url("./Phoebe.jpg");
+}
+
+
+.profilePictures {
+  background-size: cover;
+  border-radius: 15px;
+  margin: 40px 50px 40px 50px;
+  height: 300px;
+  width: 300px;
+  max-height: 300px;
+  max-width: 300px;
+  vertical-align: top;
+  display: inline-block;
+  position: relative;
+}
+
+.caption {
+  font-size: 30px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  height: 20%;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
+
+*/
+
+</style>
+-->
 
   <body>
 
@@ -17,9 +239,10 @@
 
       <div class = "fixedNavbar">
         <ul>
-          <li><a href = "#Contact">Contact</a></li>
-          <li><a href = "#Articles">Articles</a></li>
           <li><a href = "#Home">Home</a></li>
+          <li><a href = "#Articles">Articles</a></li>
+          <li><a href = "#Contact">Contact</a></li>
+          <li><a href = "#About">About</a></li>
         </ul>
       </div>
 
@@ -28,7 +251,7 @@
         <h3 class='subtitleAbout'>Ethical Hackers is an initiative dedicated to reducing waste in the city of Southampton.</h3>
       </div>
 
-      <div class = 'whatWeDo'>
+      <div class='whatWeDo'>
         <h2 class='titleStyle titleWhat'>What We Do</h2>
         <h3 class='subtitleWhat'>We're here to help you cut consumption in Southampton.<br><h3>
           <h4 class='paragraphWhat'>The average home in the UK throws out over one tonne of rubbish every year. We aim to reduce this number, starting with Southampton, by helping you find ways you can help to cut down on waste.<br><br>
@@ -49,10 +272,10 @@
 
           <div class="col-xs-4">
             <img src="./Gemma.jpg" class='img-responsive img-circle'>
-            <p>Gemma studies at the University of Southampton.</p>
+            <p>Gemma studies Biomedical Sciences at the University of Southampton.</p>
           </div>
 
-          <div class=" col-xs-4">
+          <div class="col-xs-4">
             <img src="./Phoebe.jpg" class='img-responsive img-circle'>
             <p>Phoebe studies English at the University of Southampton.</p>
           </div>
