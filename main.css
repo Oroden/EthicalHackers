@@ -56,7 +56,7 @@
       color: white;
       font-family: 'ailerons';
       text-align: center;
-      background: url('./mountains.jpg');
+      background-image: url("../images/mountains.jpg");
       background-size: cover;
   }
 
