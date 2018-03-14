@@ -1,5 +1,4 @@
-
-  @font-face {
+@font-face {
       font-family: "ailerons";
       src: url("ailerons.otf");
   }
@@ -54,9 +53,9 @@
     .titleDiv {
       padding: 100px 0px 40px 0px;
       color: white;
-      font-family: 'ailerons';
+      font-family: 'Ailerons';
       text-align: center;
-      background: url('./mountains.jpg');
+      background: url("./mountains.jpg");
       background-size: cover;
   }
 
